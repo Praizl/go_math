@@ -1,10 +1,10 @@
 package calc
 
 func Add(args ...int) int {
-	s := 0
-	for _, v := range args {
-		s += v
 
+	s := 0
+	for _, value := range args {
+		s += value
 	}
 	return s
 }
